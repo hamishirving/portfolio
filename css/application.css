@@ -281,7 +281,7 @@ header {
 
 .show-work {
   padding: 100px 0;
-  background: #f5f5f5; }
+  background: linear-gradient(0deg, #f5f5f5, #ffffff); }
   .show-work p {
     padding-right: 10px; }
   .show-work h2 {
@@ -296,6 +296,9 @@ header {
     width: 510px;
     overflow: hidden;
     box-shadow: 0px 1px #e6e6e6; }
+    .show-work .showcase a:hover {
+      background-color: red;
+      opacity: 0.9; }
 
 p .highlight {
   background: #ffff00;
