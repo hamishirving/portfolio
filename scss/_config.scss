@@ -1,0 +1,34 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+// Font Stacks
+
+$font-family--primary			: "jubilat", Helvetica, Arial, sans-serif;
+$font-family--secondary			: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
+$font-family--blockquote		: "adelle", Helvetica, Arial, sans-serif;
+
+// Font Weights
+
+$font-weight--bold				: 700;
+
+// Base Colors
+
+$white							: #fff;
+$black							: #333;
+
+// Color Usage
+
+$color-primary					: #37a89a;
+$color-gradient					: linear-gradient(10deg, rgb(040,167,151), rgb(048,073,198));
+$color-parkhound				: #21b685;
+
+// Text
+
+$base__font-size 				: 16px;
+$base__line      				: 24px;
+$letter-space    				: 1px;
+
+// Border radius
+
+$br--default     				: .4em;
