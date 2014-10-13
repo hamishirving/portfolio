@@ -22,6 +22,10 @@ p {
   -webkit-font-smoothing: antialiased;
   line-height: 1.375em; }
 
+a {
+  font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
 blockquote {
   color: #333;
   font-size: 20px;
@@ -288,5 +292,10 @@ header {
     border: 0.4em;
     height: 500px;
     width: 510px; }
+
+p .highlight {
+  background: #ffff00;
+  padding: 2px 4px;
+  margin: 0 -4px; }
 
 /*# sourceMappingURL=application.css.map */

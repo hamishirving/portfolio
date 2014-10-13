@@ -31,6 +31,11 @@ p {
 	line-height: 1.375em;
 }
 
+a {
+	font-family: $font-family--secondary;
+	-webkit-font-smoothing: antialiased;
+}
+
 blockquote {
 	color: $black;
 	font-size: 20px;

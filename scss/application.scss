@@ -31,7 +31,6 @@ nav ul li {
 
 	&:hover {
 		border-bottom: 1px solid $white;
-
 	}
 }
 
@@ -103,4 +102,10 @@ header {
 		width: 510px;
 
 	}
+}
+
+p .highlight {
+	background: #ffff00;
+	padding: 2px 4px;
+	margin: 0 -4px;
 }
