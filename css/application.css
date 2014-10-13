@@ -281,7 +281,9 @@ header {
 
 .show-work {
   padding: 100px 0;
-  background: #fafafa; }
+  background: #f5f5f5; }
+  .show-work p {
+    padding-right: 10px; }
   .show-work h2 {
     font-size: 30px;
     color: #21b685;
@@ -289,13 +291,21 @@ header {
   .show-work .showcase {
     position: relative;
     background: #fff;
-    border: 0.4em;
+    border-radius: 0.4em;
     height: 500px;
-    width: 510px; }
+    width: 510px;
+    overflow: hidden;
+    box-shadow: 0px 1px #e6e6e6; }
 
 p .highlight {
   background: #ffff00;
-  padding: 2px 4px;
+  padding: 1px 2px;
   margin: 0 -4px; }
+
+.showcase img {
+  position: absolute;
+  height: 375px;
+  top: 13%;
+  left: 7%; }
 
 /*# sourceMappingURL=application.css.map */

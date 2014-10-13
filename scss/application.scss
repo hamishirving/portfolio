@@ -82,10 +82,10 @@ header {
 
 .show-work {
 	padding: 100px 0;
-	background: #fafafa;
+	background: #f5f5f5;
 
-	& .row {
-
+	& p {
+		padding-right: 10px;
 	}
 
 	& h2 {
@@ -97,15 +97,27 @@ header {
 	& .showcase {
 		position: relative;
 		background: $white;
-		border: $br--default;
+		border-radius: $br--default;
 		height: 500px;
 		width: 510px;
-
+		overflow: hidden;
+		box-shadow: 0px 1px #e6e6e6;
 	}
 }
 
 p .highlight {
 	background: #ffff00;
-	padding: 2px 4px;
+	padding: 1px 2px;
 	margin: 0 -4px;
 }
+
+.showcase img {
+	position: absolute;
+	height: 375px;
+	top: 13%;
+	left: 7%;
+}
+
+
+
+
